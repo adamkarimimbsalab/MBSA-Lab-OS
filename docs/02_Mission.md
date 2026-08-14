@@ -283,17 +283,6 @@ The primary measure of success is therefore not audience size alone.
 
 The core success criterion is the ability to continuously produce credible, practical and reusable engineering evidence that supports learning, professional visibility and the progressive development of the MBSA Lab ecosystem.
 
-## 10. Document Status
-
-Status: Draft
-
-This document implements US004 — Mission / Strategic Foundation.
-
-It should be considered complete when the US004 acceptance criteria are satisfied and the document has been committed to the MBSA-Lab-OS repository.
-
-Future strategic changes should be reflected through controlled updates to the MBSA Lab documentation and, when applicable, the private Master Plan.
-
-
 
 
 
