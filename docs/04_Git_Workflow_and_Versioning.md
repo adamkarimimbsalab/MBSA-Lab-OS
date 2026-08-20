@@ -757,7 +757,7 @@ The following workflow is the standard MBSA Lab User Story execution pattern.
 ### Phase A — Audit
 
 ```powershell
-cd D:\GRAZADAM\MBSA_LAB _MBSA_Lab_OS
+cd D:\GRAZADAM\MBSA_LAB\00_MBSA_Lab_OS
 git status
 git branch --show-current
 git remote -v
