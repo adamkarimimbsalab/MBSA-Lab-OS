@@ -1,309 +1,152 @@
 # MBSA Lab — Mission
 
-**Document ID:** US004  
-**Version:** v0.1  
-**Status:** Draft  
-**Date:** 2026-08-13  
-**Scope:** Mission / Strategic Foundation
-
----
-
 ## 1. Mission
 
-> **Making Model-Based Safety Engineering Practical.**
+The mission of MBSA Lab is to transform complex systems-engineering and safety-assessment concepts into practical, inspectable, and reusable public engineering material.
 
-MBSA Lab exists to make Model-Based Safety Engineering (MBSA) practical, understandable and reproducible through concrete engineering examples, models, implementations and validation evidence.
+MBSA Lab does this by connecting models, requirements, architecture, implementation, verification, validation, traceability, evidence, and communication in bounded demonstrations.
 
-The project connects systems engineering, MBSE, safety engineering, architecture and software engineering through small, progressive and reusable engineering demonstrations.
+## 2. Operational mission
 
----
+The initiative seeks to:
 
-## 2. Operational Mission
+1. define engineering problems and system boundaries explicitly;
+2. produce architecture and lifecycle descriptions proportional to the problem;
+3. build the smallest credible POCs needed to test important assumptions;
+4. retain objective evidence, findings, limitations, and residual risks;
+5. evaluate readiness and acceptance through explicit criteria and authority;
+6. derive reusable patterns only when admission evidence is sufficient;
+7. publish curated material that remains traceable to its engineering sources.
 
-MBSA Lab translates its mission into the following activities:
+## 3. Strategic intent
 
-- Explain difficult engineering concepts simply.
-- Demonstrate concepts through small and concrete Proofs of Concept (POCs).
-- Connect systems engineering theory with implementation.
-- Provide reproducible engineering artifacts.
-- Connect MBSE and safety engineering.
-- Teach students and engineers through practical examples.
-- Create reusable engineering patterns.
-- Progressively build open engineering tooling.
-- Create a professional engineering community around practical MBSE and MBSA.
+MBSA Lab is intended to bridge four recurring gaps:
 
-The objective is not to provide theory independently from engineering practice. Concepts should progressively be connected to models, architectures, implementations, verification and validation.
+- the gap between method and practical application;
+- the gap between systems architecture and executable behaviour;
+- the gap between technical results and justified engineering claims;
+- the gap between engineering work and accessible education.
 
----
+The strategic intent is progressive capability growth, not premature industrialization.
 
-## 3. Strategic Intent
+## 4. Target audiences
 
-MBSA Lab is intended to operate simultaneously as:
+### 4.1 Primary audiences
 
-1. **A professional technical portfolio**  
-   A public body of engineering evidence demonstrating practical capabilities in MBSE, MBSA, systems engineering, architecture and related engineering disciplines.
+- systems and software engineers;
+- MBSE and MBSA practitioners;
+- safety, assurance, verification, and validation engineers;
+- architects working on embedded or cyber-physical systems;
+- technical learners seeking complete engineering examples.
 
-2. **A public engineering knowledge base**  
-   A structured collection of explanations, models, patterns, examples and technical documentation.
+### 4.2 Secondary audiences
 
-3. **A POC production system**  
-   A repeatable mechanism for transforming engineering concepts into small, understandable and reproducible demonstrations.
+- engineering managers and technical decision-makers;
+- educators and mentors;
+- open-source contributors;
+- recruiters or assessors seeking inspectable evidence of engineering practice.
 
-4. **A video and tutorial production system**  
-   A mechanism for transforming engineering results into concise educational content.
+### 4.3 Language and accessibility
 
-5. **A learning platform**  
-   A foundation for structured learning through concepts, examples, POCs, exercises and validation.
+Public artefacts should use clear technical English, define project-specific terms, and remain understandable without access to private project administration.
 
-6. **An open engineering ecosystem**  
-   A progressively growing collection of reusable engineering artifacts, patterns and workflows.
+## 5. Value proposition
 
-7. **A future MBSA tooling platform**  
-   A foundation from which Eclipse-based tooling, a Safety DSL and an MBSA Plugin may progressively emerge.
-
-8. **A long-term consulting, training and product opportunity**  
-   A potential professional ecosystem supporting training, consulting, conferences, premium technical content and future engineering tools.
-
-The strategic intent is therefore to build an ecosystem in which engineering work generates evidence, reusable knowledge and educational content rather than isolated publications.
-
----
-
-## 4. Target Audiences
-
-### 4.1 Primary Audiences
-
-MBSA Lab primarily targets:
-
-- MBSE professionals;
-- MBSA and safety engineers;
-- systems engineers;
-- systems architects;
-- software and system architects;
-- aerospace engineering professionals;
-- automotive engineering professionals;
-- engineering managers;
-- recruiters hiring systems engineering profiles.
-
-These audiences represent the primary professional and engineering communities for which MBSA Lab aims to provide practical technical value and visible engineering evidence.
-
-### 4.2 Secondary Audiences
-
-MBSA Lab also targets:
-
-- engineering students;
-- PhD students;
-- junior engineers;
-- universities;
-- training organizations;
-- companies seeking MBSE / MBSA awareness or training.
-
-These audiences support the educational and ecosystem dimensions of the project.
-
-### 4.3 Geographic and Language Scope
-
-The initial language strategy is:
-
-1. **French** — primary language for initial local and professional positioning.
-2. **English** — international engineering and professional reach.
-3. **Arabic** — additional educational reach.
-
-The same engineering artifacts may support multiple language presentations. Content should be adapted to the target audience rather than mechanically translated.
-
----
-
-## 5. Value Proposition
-
-MBSA Lab aims to provide value through the combination of:
-
-**Practical Engineering + Reproducible Evidence + Education + Reusable Patterns**
-
-The intended value for professional audiences is the ability to inspect concrete engineering evidence rather than relying only on stated competencies.
-
-The intended evidence chain is:
+MBSA Lab provides value by exposing the evidence chain behind an engineering conclusion:
 
 ```text
-CV / Professional Claim
+Stakeholder Need
         ↓
-MBSA Lab Evidence
+Requirements and Constraints
         ↓
-POC
+Architecture and Interfaces
         ↓
-Architecture / Model
+Implementation and Configuration
         ↓
-Implementation
+Verification and Validation
         ↓
-Validation
+Evidence, Claims, Findings, and Limitations
         ↓
-Technical Documentation
+Controlled Engineering Decision
         ↓
-Video / Educational Content
-        ↓
-GitHub Artifact
+Curated Public Artefact
+```
 
+A public artefact communicates the result but does not replace the underlying engineering sources.
 
-## 6. Relationship to the Five-Year Vision
+## 6. Relationship to the vision
 
-The Mission defines what MBSA Lab exists to do and how it operates.
+The Vision describes the intended long-term state. The Mission defines the recurring work needed to progress toward it.
 
-The Vision defines the long-term state the project aims to reach.
+The Mission therefore emphasizes repeatable engineering behaviour:
 
-The five-year trajectory connects the two.
+- clarify;
+- model;
+- implement;
+- verify;
+- validate;
+- trace;
+- assess;
+- decide;
+- communicate;
+- retain.
 
-Year 1 — Foundation and Proof
+## 7. Strategic principles
 
-The first year focuses on establishing the MBSA Lab identity, completing the initial MBSA Lab OS foundation, producing the first POCs, creating the first video series, establishing reusable production templates, starting Academy foundations and preparing the Eclipse development environment.
+### 7.1 Evidence before claim
 
-Mission contribution: establish practical engineering evidence and a reproducible production system.
+Claims must remain bounded by objective evidence. Missing or weak evidence must be visible.
 
-Year 2 — Content and Community
+### 7.2 Architecture before accidental complexity
 
-The second year focuses on scaling POC and video production, developing the Pattern Library and Academy learning paths, increasing community activity, conducting workshops and strengthening professional visibility.
+The system boundary, responsibilities, interfaces, and important flows should be understood before implementation detail dominates the work.
 
-Mission contribution: transform individual engineering demonstrations into a reusable educational and professional ecosystem.
+### 7.3 Safety and assurance remain distinct
 
-Year 3 — Tooling
+Safety and assurance concerns interact with engineering and V&V but retain their own criteria and authority.
 
-The third year focuses on the Eclipse Platform, Safety DSL and first MBSA Plugin prototypes, together with model and pattern automation.
+### 7.4 Verification and validation are complementary
 
-Mission contribution: progressively turn reusable engineering knowledge into engineering tooling.
+Verification checks conformance to specified expectations. Validation checks suitability for intended use. Passing one does not imply passing the other.
 
-Year 4 — Professionalization
+### 7.5 Minimal credible demonstration
 
-The fourth year focuses on advanced training, consulting packages, conferences, university partnerships, premium technical content and plugin maturation.
+A POC should be no larger than necessary to address its engineering question, but no smaller than required to produce credible evidence.
 
-Mission contribution: extend practical engineering knowledge into professional services, education and tooling.
+### 7.6 Reuse requires admission
 
-Year 5 — Product / Reference Platform
+Reusable knowledge must retain context, assumptions, limitations, and evidence. A successful local result is not automatically a reusable pattern.
 
-The fifth year targets a mature MBSA toolchain, broader ecosystem, professional training, consulting and tooling opportunities, together with a recognized engineering community.
+### 7.7 Publication requires authority
 
-Mission contribution: establish MBSA Lab as a mature practical MBSA engineering and learning ecosystem.
+Technical quality, evidence completeness, confidentiality, rights, and publication suitability are reviewed separately. Technical success alone does not authorize release.
 
-## 7. Strategic Principles
+### 7.8 Tool neutrality
 
-The Mission is implemented according to the following principles:
+Tools support the mission but do not define it. Equivalent evidence produced with another suitable tool should remain acceptable.
 
-7.1 Practicality
+## 8. Scope and boundaries
 
-MBSA should be demonstrated, not only discussed.
+MBSA Lab includes public engineering documentation, bounded POCs, admitted patterns, supporting tools, and traceable communication material when these are available and approved.
 
-7.2 Simplicity
+It excludes:
 
-Complex engineering concepts should initially be demonstrated through clear and manageable examples.
+- unapproved confidential or personal data;
+- private administrative and orchestration material;
+- unsupported production or certification claims;
+- silent replacement of released evidence;
+- implementation presented as proof without V&V.
 
-7.3 Engineering Rigor
+## 9. Success definition
 
-Definitions, assumptions, traceability, verification and validation remain essential.
+The mission is successful when the project repeatedly produces engineering results that are:
 
-7.4 Reproducibility
+- understandable;
+- reproducible within stated conditions;
+- traceable;
+- evidence-based;
+- explicit about limitations;
+- reusable only where justified;
+- safely and deliberately published.
 
-Engineering results should be documented sufficiently for others to understand how they were produced.
-
-7.5 Incremental Development
-
-The project should progress from small validated examples toward increasing complexity.
-
-7.6 Transparency
-
-Theory, implementation, assumptions and results should be clearly distinguished.
-
-7.7 Open Learning
-
-Public content should support students, engineers and professionals in learning practical MBSE and MBSA.
-
-7.8 Industrial Relevance
-
-Examples should reflect realistic engineering problems while avoiding confidential industrial information.
-
-7.9 Tool Independence
-
-The MBSA Lab approach should not be structurally dependent on a single proprietary engineering solution.
-
-7.10 Long-Term Product Thinking
-
-Engineering patterns and experiments should be structured so that they may progressively contribute to future tooling.
-
-## 8. Scope and Boundaries
-
-MBSA Lab covers the intersection of:
-
-systems engineering;
-MBSE;
-MBSA;
-safety engineering;
-system and software architecture;
-engineering modeling;
-engineering implementation;
-verification and validation;
-technical education;
-engineering tooling.
-
-The project is broader than a single tool, modeling language or industrial application.
-
-MBSA Lab OS provides the living engineering reference for the ecosystem, while the private Master Plan remains the private control and synchronization reference.
-
-Public MBSA Lab content must remain curated and must not expose:
-
-confidential industrial information;
-proprietary customer information;
-personal secrets;
-private career documents;
-private project-control material;
-unreleased business information.
-
-## 9. Success Definition
-
-The Mission will be progressively realized when MBSA Lab can repeatedly demonstrate the following closed loop:
-
-Engineering Problem
-        ↓
-System Definition
-        ↓
-MBSE / MBSA Model
-        ↓
-Implementation
-        ↓
-Verification / Validation
-        ↓
-Engineering Evidence
-        ↓
-Documentation
-        ↓
-Reusable Pattern
-        ↓
-Educational Content
-        ↓
-Professional Visibility
-        ↓
-Community Feedback
-        ↓
-Engineering Improvement
-
-The primary measure of success is therefore not audience size alone.
-
-The core success criterion is the ability to continuously produce credible, practical and reusable engineering evidence that supports learning, professional visibility and the progressive development of the MBSA Lab ecosystem.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Success is evaluated incrementally. Capability maturity remains limited to the strongest evidence available for the specific claim being made.
